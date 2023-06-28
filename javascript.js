@@ -27,7 +27,7 @@ if (playerScore > computerScore) {
 function playRound() { 
     const playerSelection = prompt("Rock, paper, or scissors?");
     const computerSelection = getComputerChoice();
-        if (playerSelection === null) {
+        if (playerSelection === null || playerSelection === "") {
             return "You didn't input anything!";
         } else if (playerSelection.toLowerCase() === computerSelection.toLowerCase()) {
             return "Try again!";
