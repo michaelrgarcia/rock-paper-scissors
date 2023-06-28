@@ -1,7 +1,15 @@
 const playerSelection = prompt("Rock, paper, or scissors?");
 const computerSelection = getComputerChoice();
+let computerScore = 0;
+let playerScore = 0;
 
 console.log(playRound(playerSelection.toLowerCase(), computerSelection.toLowerCase()));
+
+function game() {
+    for (var i = 1; i < 5, i++) {
+        playRound(playerSelection.toLowerCase(), computerSelection.toLowerCase());
+    } 
+}
 
 function playRound(playerSelection, computerSelection) { 
         if (playerSelection === computerSelection) {
