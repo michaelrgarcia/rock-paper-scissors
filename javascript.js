@@ -1,28 +1,20 @@
 let computerScore = 0;
 let playerScore = 0;
 
-console.log(playRound());
-console.log(`You: ${playerScore} \nConsole: ${computerScore}`);
+/* for (let i = 0; i < 5; i++) {
+    console.log(playRound());
+    console.log(`You: ${playerScore} \nConsole: ${computerScore}`);
+}
 
-console.log(playRound());
-console.log(`You: ${playerScore} \nConsole: ${computerScore}`);
-
-console.log(playRound());
-console.log(`You: ${playerScore} \nConsole: ${computerScore}`);
-
-console.log(playRound());
-console.log(`You: ${playerScore} \nConsole: ${computerScore}`);
-
-console.log(playRound());
-console.log(`You: ${playerScore} \nConsole: ${computerScore}`);
-
-if (playerScore > computerScore) {
+ if (playerScore > computerScore) {
     console.log("You win the game!");
 } else if (playerScore === computerScore) {
     console.log("It's a tie!");
 } else {
     console.log("Console wins the game!");
 }
+
+*/
 
 function playRound() { 
     const playerSelection = prompt("Rock, paper, or scissors?");
