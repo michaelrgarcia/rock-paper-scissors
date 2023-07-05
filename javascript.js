@@ -1,3 +1,4 @@
+const choicebtns = document.querySelectorAll(".choicebtns button")
 let computerScore = 0;
 let playerScore = 0;
 
@@ -15,6 +16,21 @@ let playerScore = 0;
 }
 
 */
+
+choicebtns.forEach((btn) => {
+    btn.addEventListener("click", () => {
+        const playerSelection = "";
+        const computerSelection = getComputerChoice();
+        if (btn.className === "rock") {
+            console.log("I Am A Rock");
+        } else if (btn.className === "paper") {
+            console.log("paper");
+        } else if (btn.className === "scissors") {
+            console.log("scissors");
+        }
+    });
+});
+
 
 function playRound() { 
     const playerSelection = prompt("Rock, paper, or scissors?");
