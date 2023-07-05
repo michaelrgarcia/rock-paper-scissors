@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 150px;
+    margin: 125px 0 150px 0;
 }
 
 .title {
