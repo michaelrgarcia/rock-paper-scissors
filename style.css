@@ -5,23 +5,47 @@
     padding: 0;
 }
 
-body {
+.content {
     display: flex;
     flex-direction: column;
-    display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 150px;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
 }
 
 .choicebtns {
     display: flex;
-    gap: 50px;
+    gap: 40px;
     flex-wrap: wrap;
+    margin: 1% 0 1% 0;
 }
 
 .choicebtns button {
-    min-width: 150px;
-    min-height: 150px;
+    min-width: 200px;
+    min-height: 200px;
+    font-size: 60px;
+}
+
+.results {
     font-size: 40px;
+    padding: 5px;
+    margin-bottom: 1%;
+}
+
+.gamectrl {
+    display:flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.gamectrl button {
+    font-size: 40px;
+    min-height: 100px;
+    min-width: 300px;
 }
 
