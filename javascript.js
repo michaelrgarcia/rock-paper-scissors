@@ -18,6 +18,7 @@ gamectrl.forEach((btn) => {
             score.textContent = "";
             playerScore = 0;
             computerScore = 0;
+            game = true;
         }
     });
 });
