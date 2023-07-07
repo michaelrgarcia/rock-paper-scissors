@@ -9,7 +9,7 @@ let playerSelection = "";
 
 gamectrl.forEach((btn) => {
     btn.addEventListener("click", () => {
-        if (btn.className === "start") {
+        if (btn.className === "start" && playerSelection === "") {
             game = true;
             results.textContent = "Pick one!";
         } else if (btn.className == "reset" && playerSelection != "") {
