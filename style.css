@@ -1,6 +1,6 @@
 * {
     line-height: 1.5;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Courier New", sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -10,6 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+    background:rgb(152, 143, 143);
 }
 
 .content {
@@ -19,6 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 125px 0 150px 0;
+    gap: 20px;
 }
 
 .title {
@@ -30,19 +32,20 @@ body {
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
-    margin: 1% 0 1% 0;
+    margin: 3% 0 1% 0;
 }
 
 .choicebtns button {
     min-width: 200px;
     min-height: 200px;
     font-size: 60px;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 0, 0);
 }
 
 .results {
     font-size: 40px;
-    padding: 5px;
-    margin-bottom: 1%;
+    padding: 5px;;
 }
 
 .gamectrl {
@@ -58,6 +61,21 @@ body {
 }
 
 .score {
-    padding-bottom: 15px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.start {
+    background: rgb(145, 190, 78);
+    border-radius: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    color: white;
+}
+
+.reset {
+    background: red;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    color: white;
 }
 
