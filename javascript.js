@@ -41,7 +41,7 @@ choicebtns.forEach((btn) => {
 function playRound() {
     const computerSelection = getComputerChoice();
         if (playerSelection === computerSelection) {
-            results.textContent = "You both picked the same option, pick again!";
+            results.textContent = "Pick again!";
         } else if (playerSelection === "rock" && computerSelection === "paper") {
             computerScore += 1;
             results.textContent = `You lose, paper beats rock!`;
