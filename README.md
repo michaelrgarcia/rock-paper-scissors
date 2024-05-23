@@ -6,4 +6,4 @@ It will resemble the common game "rock paper scissors" and will stop when either
 
 This project will demonstrate my current basic understanding of JavaScript.
 
-You can find it at https://leavesturninsideyou.github.io/rock-paper-scissors/
+You can find it at https://michaelrgarcia.github.io/rock-paper-scissors/
